@@ -1,6 +1,10 @@
+#%%
 import librosa
+import matplotlib.pyplot as plt
 
 audio_path = 'testdata1.wav'
 
 w, sr = librosa.load(audio_path)
-print("됨")
+
+print(plt.plot(audio_path[0:10]))
+# %%
