@@ -1,7 +1,6 @@
 import librosa
-import ffmpeg
 
-audio_path = 'testdata1.mp3'
+audio_path = 'testdata1.wav'
 
 w, sr = librosa.load(audio_path)
-#print("됨")
+print("됨")
